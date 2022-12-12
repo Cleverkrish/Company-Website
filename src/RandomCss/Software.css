@@ -1,0 +1,171 @@
+.SoftMain{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+}
+.SoftImg img{
+    width: 650px;
+    height: 400px;
+    margin-left: 2rem;
+    animation: zoomIn ;
+    animation-duration: 1s ;
+}
+.SoftContent{
+    margin-top: 2rem;
+    width: 40%;
+    margin-left: 5rem;
+}
+.SoftContent h1{
+    font-weight: bold;
+    font-family: Georgia,Times,'Times New Roman',serif!important;
+}
+.SoftContent p{
+    margin-top: 1rem;
+    font-size: 18px;
+}
+.SoftContent button{
+    margin-top: 2rem;
+    color: #fff;
+    background-color: #0c71c3;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.3em 1em;
+    background-size: cover;
+    position: relative;
+    border: 2px solid;
+    border-radius: 3px;
+}
+
+/* Below Contents Styles */
+
+.Belowcontent{
+    margin-top: 8rem;
+   text-align: center;
+}
+.Belowcontent h2{
+    font-weight: bold;
+}
+.Belowcontent p{
+    width: 70%;
+   margin-left: 12rem;
+   margin-top: 1.5rem;
+}
+
+/* Image on another image styles */
+
+.ParentSoft{
+  width: 100%;
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+}
+
+.image1{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-left: 4rem;
+   
+}
+.image2{
+    width: 400px;
+    position: absolute;
+    padding-top: 13rem;
+    left: 70px;
+}
+
+.ParenContent{
+    width: 40%;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.ParenContent h2{
+    background-color: #051c2c;
+    color: #fff;
+    padding: 5px;
+    display: inline-flex;
+    font-size: 20px;
+}
+.ParenContent h3{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-family: Georgia,Times,'Times New Roman',serif!important;
+}
+.ParenContent p{
+    font-family: 'Open Sans',CenturyGothic,sans-serif!important;
+    color: #000;
+    margin-top: 1rem;
+    line-height: 1.7em;
+}
+.ParenContent button{
+    margin-top: 2rem;
+    color: #fff;
+    background-color: #0c71c3;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.3em 1em;
+    background-size: cover;
+    position: relative;
+    border: 2px solid;
+    border-radius: 3px;
+}
+ 
+
+/* Second images styles */
+
+.SecondParent{
+    width: 100%;
+    margin-top: 9rem;
+}
+.Worldstyles{
+    float: right;
+}
+.World1{
+    width: 600px;
+    height: 410px;
+    position: relative;
+    margin-right: 4rem;
+}
+.World2{
+    width: 450px;
+    position: absolute;
+    padding-top: 19rem;
+    left: 750px; 
+}
+.Subparent{
+    width: 40%;
+    margin-left: 4rem;
+   padding-top: 2rem;
+}
+.Subparent h2{
+    background-color: #051c2c;
+    color: #fff;
+    padding: 5px;
+    display: inline-flex;
+    font-size: 20px;
+}
+.Subparent h3{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-family: Georgia,Times,'Times New Roman',serif!important;
+}
+.Subparent p{
+    font-family: 'Open Sans',CenturyGothic,sans-serif!important;
+    color: #000;
+    margin-top: 1rem;
+    line-height: 1.7em;
+}
+.Subparent button{
+    margin-top: 2rem;
+    color: #fff;
+    background-color: #0c71c3;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.3em 1em;
+    background-size: cover;
+    position: relative;
+    border: 2px solid;
+    border-radius: 3px; 
+}

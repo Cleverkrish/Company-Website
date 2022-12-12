@@ -1,0 +1,262 @@
+.imgcontainer img{
+   position:relative;
+   width: 100%;
+   height: 600px;
+}
+
+.content1 h1{
+    color: #fff;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18rem;
+    margin-left: 18rem;
+    font-size: 3rem;
+}
+
+
+
+ /* IMAGE ANIMATOIN STYLES  */
+
+.container{
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fefefe;
+}
+
+.container{
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1400px;
+}
+
+.carousel{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate360 60s infinite forwards linear;
+}
+
+.image{
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+span{
+    margin: auto;
+    font-size: 2rem;
+}
+
+@keyframes rotate360 {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(-360deg);
+    }
+}
+
+.image:nth-child(1) {
+    background-image: url("https://www.financialexpress.com/wp-content/uploads/2022/10/online-shopping-trends-Big-New.jpg");
+    transform: rotateY(0deg) translateZ(430px);
+}
+
+.image:nth-child(2) {
+    background-image: url("https://frameboxxanimation.com/assets/img/courses/expert-program-web-development_2.jpg");
+    transform: rotateY(40deg) translateZ(430px);
+}
+
+.image:nth-child(3) {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM2aKV9tROgvAPCMpWAs8XQqQMyeDkpg5Tfw&usqp=CAU");
+    transform: rotateY(80deg) translateZ(430px);
+}
+
+.image:nth-child(4) {
+    background-image: url("https://img.freepik.com/premium-vector/young-programmer-modern-software-development-technologies_122058-1145.jpg");
+    transform: rotateY(120deg) translateZ(430px);
+}
+
+.image:nth-child(5) {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYNfzw2sXd4w9boLNdnrexvI26m8le_8oQhw&usqp=CAU");
+    transform: rotateY(160deg) translateZ(430px);
+}
+
+.image:nth-child(6) {
+    background-image: url("https://img.freepik.com/premium-vector/cartoon-rider-logo-design-vector-illustration_62569-310.jpg?w=2000");
+    transform: rotateY(200deg) translateZ(430px);
+}
+
+.image:nth-child(7) {
+    background-image: url("https://www.editingcorp.com/wp-content/uploads/2020/12/Impact-of-Video-Content-Creation-On-Social-Media-Platforms..jpg");
+    transform: rotateY(240deg) translateZ(430px);
+}
+
+.image:nth-child(8) {
+    background-image: url("https://vfxera.com/wp-content/uploads/2021/07/New-Project-14.jpg");
+    transform: rotateY(280deg) translateZ(430px);
+}
+
+.image:nth-child(9) {
+    background-image: url("https://visme.co/blog/wp-content/uploads/seo-images-how-to-optimize-images-for-visual-search-1.png");
+    transform: rotateY(320deg) translateZ(430px);
+}
+
+
+
+
+ /* Portfolois  */
+
+.Containing{
+    width: 100%;
+    height: 100%;
+    margin-top: 35rem;
+    
+}
+
+.thumbanail{
+ width: 700px;
+ position: relative;
+ box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+ background-color: #fff;
+ overflow: hidden;
+ border-radius: 8px;
+ margin-bottom: 20px;
+ 
+}
+
+.thumbanail:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 8px solid #fff;
+    z-index: 2;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+
+.thumbanail:hover img{
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.thumbanail img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transform: scale(1) rotate(0deg);
+    transition: all .5s linear;
+    
+}
+
+.thumbanail.right{
+    float:right;
+    margin-left: 1rem ;
+}
+
+.textView{
+    padding: 60px;
+}
+
+.textView h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.textView p{
+    font-family: 'Roboto';
+    margin-top: 2rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+/* Second Portfolio */
+
+.thumbanail.left{
+    float: left;
+    margin-right: 2rem ;
+}
+
+.textViewing{
+    padding: 60px;
+    margin-top: 6rem;
+    /* margin-left: 4rem; */
+}
+
+.textViewing h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.textViewing p{
+    font-family: 'Roboto';
+    margin-top: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+/* CSS */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}

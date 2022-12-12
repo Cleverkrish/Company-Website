@@ -1,0 +1,104 @@
+.DevContent{
+    width: 100%;
+}
+
+.BlueImg img{
+  width: 100%;
+  height: 380px;
+}
+.DevContent h1{
+    position: absolute;
+    top: 0;
+    margin-top: 14rem;
+    margin-left: 3rem;
+    font-size: 2.4rem;
+    color: #fefefe;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+}
+.DevContent h4{
+    position: absolute;
+    top: 0;
+    margin-top: 17rem;
+    margin-left: 3rem;
+    font-size:18px;
+    color: #fefefe;
+    font-family: "Nunito", sans-serif;
+    padding-top: 1rem;
+}
+
+
+/* Below Paragraphs Styles */
+
+.AppDevParagraph{
+    width: 100%;
+    margin-top: 4rem;
+}
+.DevPara{
+    width: 90%;
+}
+.DevPara h2{
+    margin-left: 6rem;
+}
+.DevPara h3{
+    margin-top: 2rem;
+    margin-left: 6rem;
+    color: #292225;
+    font-family: "Nunito", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.555em;
+}
+.DevPara p{
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7333333333;
+    color: #5a5a5a;
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+.line{
+    width: 20%;
+}
+ hr{
+   margin-left: 6rem;
+   border: 2px solid darkblue;
+}
+.DevPara h4{
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+
+ /* Tick Lists styles */
+
+ .ManyLists{
+    width: 100%;
+    margin-top: 3rem;
+ }
+ .ManyLists p{
+    color: #292225;
+    margin-left: 150px;
+    font-family: Nunito;
+    font-size: 18px;
+ }
+ .TiIcons{
+    font-size: 2rem;
+    color: #0026ff;
+ }
+
+ .SmallLists{
+    width: 100%;
+    margin-top: 3rem;
+ }
+
+ .SmallLists p{
+    color: #292225;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7333333333em;
+    margin-left: 550px;
+    animation:fadeInUp;
+    animation-duration: 2s;
+ }

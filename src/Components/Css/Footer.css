@@ -1,0 +1,52 @@
+footer{
+    /* position:absolute; */
+    background-color: #888;
+    margin-top: 8rem;
+    width: 100%;
+    height: 250px;
+    /* padding: 60px; */
+}
+
+.line{
+   width: 100%;
+   
+}
+
+hr{
+    margin-bottom: .5em;
+}
+
+.icons{
+    /* width: 100%; */
+    text-align: center;
+}
+
+.icon{
+    margin-right: 2em;
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.ManyContents{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.ManyContents p{
+    letter-spacing: .5px;
+    font-family: "Chronicle Display";
+    font-weight: 700;
+    color: #333;
+}
+
+.ManyContents h4{
+    color: #0c0c1f;
+    font-size: 30px;
+}
+
+.ManyContents a{
+    margin-left: 1rem;
+}

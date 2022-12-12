@@ -1,0 +1,22 @@
+export const SliderData = [
+    {
+      image:
+      "https://cdn.pixabay.com/photo/2017/12/26/09/15/woman-3040029__340.jpg"
+    },
+    {
+      image:
+      "https://magnoliarealty.in/wp/wp-content/uploads/2022/01/social-media-tips-blog-header-no-logo.png"
+    },
+    {
+      image:
+      "https://p.kindpng.com/picc/s/151-1511979_graphic-designer-web-design-professional-graphic-design-banner.png"
+    },
+    {
+      image:
+      "https://media.istockphoto.com/id/1193278024/vector/application-of-smartphone-with-business-graph-and-analytics-data-on-isometric-mobile-phone.jpg?s=612x612&w=0&k=20&c=cV3zqN7LAi6_qAqW45_vZMg7HVRSt4_2NV-SRJ-FK04="
+    },
+    {
+      image:
+        "https://www.webhopers.com/wp-content/uploads/2022/02/software-development-company-in-Karnal.jpg"
+    }
+  ];

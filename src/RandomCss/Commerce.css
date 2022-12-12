@@ -1,0 +1,112 @@
+.Commercecontent{
+    width: 100%;
+}
+.CommBanner img{
+    width: 100%;
+    height: 400px;
+}
+.Commercecontent h1{
+    position: absolute;
+    top: 0;
+    margin-top: 15rem;
+    margin-left: 8rem;
+    color: #fff;
+}
+.Commercecontent h5{
+    position: absolute;
+    top: 0;
+    margin-top: 20rem;
+    margin-left: 15rem;
+    color: #fff;
+}
+.Commercecontent span{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.CommContent h1{
+    text-align: center;
+    margin-top: 4rem;
+}
+.CommContent h4{
+    text-align: center;
+}
+.CommContent span{
+    font-size: 2.3rem;
+    color: #89176f;
+}
+
+
+/* Three Images and contents styles */
+
+.CommBelow{
+    width: 100%;
+    margin-top: 8rem;
+    display: flex;
+}
+.CommImg img{
+    width: 500px;
+    margin-left: 8rem;
+}
+.Commcontent{
+    width: 40%;
+    margin-left: 8rem;
+    margin-top: 6rem;
+}
+.Commcontent h1{
+    color: #b7169f;
+}
+.Commcontent p{
+    color: #333;
+    font-size: 1.1rem;
+}
+
+/* Another 2nd image styles */
+.CommMiddle{
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+}
+.CommiddleImg img{
+    width: 500px;
+    margin-left: 3rem;
+}
+.ComMiddleContent{
+    width: 40%;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.ComMiddleContent h1{
+    color: #b7169f;
+}
+.ComMiddleContent p{
+    color: #333;
+    font-size: 1.1rem;
+}
+
+/* Another 3rd image styles */
+
+.CommBottom{
+    width: 100%;
+    margin-top: 8rem;
+    display: flex;
+}
+.CommbotImg img{
+    width: 500px;
+    margin-left: 8rem;
+}
+.Commbotcontent{
+    width: 40%;
+    margin-left: 8rem;
+    margin-top: 6rem;  
+}
+.Commbotcontent h1{
+    color: #b7169f;
+}
+.Commbotcontent p{
+    color: #333;
+    font-size: 1.1rem;
+}
+
+
+

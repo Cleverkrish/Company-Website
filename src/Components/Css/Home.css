@@ -1,0 +1,125 @@
+/* .mainSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+.contentBox{
+    width: 40%;
+    padding-left: 4em;
+}
+
+.contentBox h3{
+    font-size: 1.5rem;
+    color: blue;
+    margin-top: 2rem;
+}
+
+.contentBox h1{
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.slideInup{
+    animation: slideInUp;
+    animation-duration: 1s;
+}
+
+.contentBox p{
+    font-family: 'poppins', sans-serif;
+    text-align: justify;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+}
+
+.sllidein{
+    animation: slideInUp;
+    animation-duration: 1s;
+}
+
+.btnBox{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #fe2d2d;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    margin-top: 2rem;
+}
+
+.imgContainer img{
+    float: right;
+    margin-right: 2rem;
+    width: 600px;
+}
+
+
+.imgContainer img:hover {
+    animation: shake 3.2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+
+
+
+/* Two Images styles  */
+
+.textContent {
+   width: 100%;
+}
+
+.textContent h1{
+    margin-top: 14rem; 
+    text-align: center;
+    color:black;
+}
+
+
+
+.textContent span{
+    color: #007bff;
+}
+
+.textContent p{
+    font-family:Comic Sans MS;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-left: 1em;
+    text-align: center;
+}
+
+
+.comImg{
+ width: 600px;
+ margin-left: 2rem;
+ box-shadow: 10px 10px 19px 0px;
+ margin-top: 3rem;
+}
+
+.carImg{
+    width: 600px;
+    float: right;
+    margin-right: 2rem;
+    box-shadow: 10px 10px 19px 0px;
+    margin-top: 3rem;
+}

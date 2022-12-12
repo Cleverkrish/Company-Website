@@ -1,0 +1,37 @@
+:root{
+    --maincolor:#fff;
+}
+
+header{
+    background-color:#fff;
+}
+
+.logo{
+    width: 100px;
+}
+
+.Container{
+    width: 85%;
+    /* background-color: orange; */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Container div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.classItem{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'poppins',sans-serif;
+    margin-left: 2.5rem;
+}
+.activeItem{
+    color: #8c6326;
+    border-bottom:.1em double#fff;
+}
+

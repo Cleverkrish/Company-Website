@@ -1,0 +1,117 @@
+.Socialcontent{
+    width: 100%;
+}
+.TopBanner img{
+    width: 100%;
+    height: 400px;
+}
+.Socialcontent h1{
+    position: absolute;
+    top: 0;
+    margin-top: 15rem;
+    margin-left: 5rem;
+    color: #fff;
+    font-weight: bold;
+}
+.Socialcontent h5{
+    width: 60%;
+    position: absolute;
+    top: 0;
+    margin-top: 20rem;
+    margin-left: 5rem;
+    color: #fff;
+}
+.SocialImg{
+    width: 100%;
+}
+.SocialImg img{
+    width: 350px;
+    position: absolute;
+    top: 0;
+   margin-top: 14rem;
+   margin-left: 58rem;
+}
+
+
+/* Below Image and content Styles */
+
+.SocialContent2{
+    width: 100%;
+    display: flex;
+    margin-top: 5rem;
+}
+.Subcontent2{
+    width: 50%;
+    margin-left: 4rem;
+}
+.BelowBanner img{
+    width: 550px;
+    margin-top: 15rem;
+   
+}
+.Subcontent2 h1{
+    font-size: 35px;
+    line-height: 1.3;
+    letter-spacing: 0.1px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #010101 !important;
+}
+.SocialContent2 span{
+    color: #0a87d1;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+.SocialContent2 p{
+    padding-top: .3rem;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.9;
+    color: #010101;
+    font-family: inherit;
+}
+.Biicons{
+    color: #dd054e;
+}
+
+
+/* Another Image and contents Styles */
+.SubSocial{
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+}
+.SocialLogo img{
+    width: 500px;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+.AdditionalText{
+    width: 50%;
+    margin-left: 3rem;
+}
+.AdditionalText h1{
+    font-size: 40px;
+}
+.AdditionalText span.Headstyle{
+    font-size: 40px;
+    color:#0a87d1 ;
+    font-weight: 600;
+}
+.AdditionalText h5{
+    margin-top: 2rem;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.AdditionalText p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.9;
+    color: #010101;
+}
+.AdditionalText span{
+    font-size: 17px;
+    font-weight: 700;
+}

@@ -1,0 +1,81 @@
+.Seocontent{
+    width: 100%;
+}
+.SeoImg img{
+    width: 100%;
+    height: 500px;
+    filter: grayscale(0);
+}
+.Seocontent h1{
+    text-align: center;
+    margin-top: 2rem;
+    color:	#800000;
+}
+.Seocontent p{
+    width: 90%;
+    text-align: center;
+    font-style: italic;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+ /* Below background image styles */
+
+.Middlecontent{
+    width: 100%;
+}
+
+.MiddleImg img{
+    width: 100%;
+    height: 420px;
+}
+.seopng img{
+    width: 450px;
+    position: absolute;
+    top: 0;
+    margin-top: 72rem;
+    margin-left: 5rem;
+    animation: fadeInLeft;
+    animation-duration: 3s;
+}
+.Middlecontent p{
+    padding: 90px;
+    width: 60%;
+    font-size: 20px;
+    font-family: 'open sans',sans-serif;
+    letter-spacing: .6px;
+    color: black;
+    position: absolute;
+    top: 0;
+    flex-direction: column;
+    margin-top: 71rem;
+    margin-left: 30rem;
+    animation: fadeInRight ;
+    animation-duration: 3s ; 
+}
+
+.contenSeo{
+    width: 100%;
+   margin-top: 3rem;
+}
+.bottomImg img{
+    float: right;
+    width: 600px;
+    margin-right: 2rem;
+    animation: fadeInRight ;
+    animation-duration: 2s ; 
+}
+.contenSeo p{
+    padding: 40px;
+    width: 50%;
+    padding-top: 7rem;
+    font-size: 20px;
+    font-family: 'open sans',sans-serif;
+    letter-spacing: .6px;
+    color: black;
+    margin-left: 2rem;
+    animation: fadeInLeft;
+    animation-duration: 2s;
+}
